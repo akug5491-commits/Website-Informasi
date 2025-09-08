@@ -1,0 +1,14 @@
+/* background seragam */
+body{font-family:Segoe UI,Tahoma,Arial,sans-serif;background:#f4f7fb;margin:0}
+.login-wrapper{display:flex;justify-content:center;align-items:center;height:100vh;padding:16px}
+.login-card{background:#fff;padding:28px;border-radius:14px;box-shadow:0 6px 18px rgba(0,0,0,.1);max-width:380px;width:100%;text-align:center}
+.login-card h2{margin:0 0 16px;color:#1e3a8a}
+.login-card input{width:100%;padding:12px;margin:8px 0;border:1px solid #cfd8e3;border-radius:10px;outline:0;font-size:15px}
+.login-card input:focus{border-color:#1e90ff;box-shadow:0 0 0 3px rgba(30,144,255,.15)}
+.btn{display:inline-block;width:100%;padding:12px;border-radius:10px;border:none;background:#1e90ff;color:#fff;font-size:16px;cursor:pointer;transition:.2s}
+.btn:hover{background:#0d6efd}
+.error{background:#ffe5e5;color:#b00020;padding:10px;border-radius:10px;margin-bottom:10px;font-size:14px}
+.success{background:#e8ffe8;color:#0a7a0a;padding:10px;border-radius:10px;margin-bottom:10px;font-size:14px}
+.small{margin-top:12px;font-size:13px}
+.small a{color:#1e90ff;text-decoration:none}
+.small a:hover{text-decoration:underline}
